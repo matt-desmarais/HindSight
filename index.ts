@@ -30,7 +30,7 @@ Common fallacies to watch for: ad hominem, straw man, false dichotomy, slippery 
 appeal to authority, appeal to emotion, hasty generalization, circular reasoning,
 bandwagon, red herring, false cause, anecdotal evidence.
 
-If there is any logical fallacy (even a weak one), respond in this exact JSON format:
+If there is any logical fallacy, respond in this exact JSON format:
 {
   "fallacy": true,
   "name": "<short fallacy name, max 4 words>",
