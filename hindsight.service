@@ -1,0 +1,15 @@
+[Unit]
+Description=HindSight Fallacy Detector
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/mentra/HindSight
+EnvironmentFile=/root/mentra/HindSight/.env
+ExecStart=/root/.bun/bin/bun run index.ts
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
