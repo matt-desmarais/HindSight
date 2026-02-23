@@ -1,0 +1,23 @@
+{
+  "name": "hindsight",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^25.3.0",
+    "ts-node": "^10.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@mentra/sdk": "^2.1.29",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  }
+}
